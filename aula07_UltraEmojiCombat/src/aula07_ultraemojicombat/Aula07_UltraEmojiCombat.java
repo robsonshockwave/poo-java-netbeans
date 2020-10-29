@@ -13,6 +13,7 @@ public class Aula07_UltraEmojiCombat {
         l[4] = new Lutador("UFOCobol", "Brasil", 37, 1.70f, 119.3f, 5, 4, 3);
         l[5] = new Lutador("Nerdaart", "EUA", 30, 1.81f, 105.7f, 12, 2, 4);
         
+        /*
         //l[3].setCategoria() vai dar erro, pois ele é privado
         //l[3].setPeso(10f); vai ficar com peso de 10kg
         l[0].status();
@@ -21,6 +22,14 @@ public class Aula07_UltraEmojiCombat {
             lutador.apresentar();
             lutador.status();
         }
+        */
+        
+        // Agregação entre Objetos
+        Luta UEC01 = new Luta();
+        UEC01.marcarLuta(l[0], l[1]);
+        UEC01.lutar();
+        l[0].status();
+        l[1].status();
     }
     
 }
