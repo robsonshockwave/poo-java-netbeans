@@ -1,6 +1,6 @@
 package aula06;
 
-public class ControleRemoto implements Controlador {
+public class ControleRemoto implements Controlador { //tem q colocar o implements para pegar as classes do controlador
     //Atributos
     private int volume;
     private boolean ligado;
