@@ -1,7 +1,7 @@
 ## Orientada a Objetos
 
 Esse projeto abrange alguns códigos conceituais sobre orientada a objetos em JAVA.
-<hr>
+---
 
 Conceitos abordados:
 <ul type="square">
@@ -16,8 +16,6 @@ Conceitos abordados:
   <li>Polimorfismo de sobreposição
   <li>Polimorfismo de sobrecarga
 </ul>
-
-<hr>
 
 ---
 
